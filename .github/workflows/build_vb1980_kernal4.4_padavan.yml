@@ -86,7 +86,7 @@ on:
       uploadanon:
         type: boolean
         description: 'upload firmware to anonfiles'
-        default: 'false'
+        default: 'true'
 env:
   REPOSITORY_URL: https://github.com/vb1980/padavan-4.4.git
   WORK_PATH: /opt/padavan-4.4
